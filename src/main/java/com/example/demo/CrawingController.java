@@ -18,6 +18,7 @@ import kr.co.shineware.nlp.komoran.constant.DEFAULT_MODEL;
 import kr.co.shineware.nlp.komoran.core.Komoran;
 import kr.co.shineware.nlp.komoran.model.KomoranResult;
 
+@RestController
 public class CrawingController {
     // 조회할 URL
     // 네이버 뉴스 검색어:김민재, 옵션: 최신순
