@@ -1,0 +1,31 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.0.6'
+	id 'io.spring.dependency-management' version '1.1.0'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+repositories {
+	mavenCentral()
+	maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	 //jsoup
+    implementation 'org.jsoup:jsoup:1.14.2' // jsoup은 HTML 묹서에 저장된 데이터 구문 분석, 추출 및 조작하도록  설계된 오픈소스  Java 라이브러리이다.
+
+    //KOMORAN
+    implementation 'com.github.shin285:KOMORAN:3.3.9'
+
+    //Swagger
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
