@@ -23,7 +23,7 @@ public class CrawingController {
     // 조회할 URL
     // 네이버 뉴스 검색어:김민재, 옵션: 최신순
     public String[] url = {
-            "https://search.naver.com/search.naver?where=news&sm=tab_pge&query=%EA%B0%9C%EB%B0%9C%EC%9E%90&sort=0&photo=0&field=0&pd=0&ds=&de=&cluster_rank=41&mynews=0&office_type=0&office_section_code=0&news_office_checked=&nso=so:r,p:all,a:all&start=21"
+            "https://search.naver.com/search.naver?where=news&query=%EA%B9%80%EB%AF%BC%EC%9E%AC&sm=tab_opt&sort=1&photo=0&field=0&pd=0&ds=&de=&docid=&related=0&mynews=0&office_type=0&office_section_code=0&news_office_checked=&nso=so%3Add%2Cp%3Aall&is_sug_officeid=0"
     };
 
     // 페이지에서 URL 추출하기
